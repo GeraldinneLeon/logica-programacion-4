@@ -1,0 +1,21 @@
+body {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-image: url('https://img.freepik.com/vector-gratis/formulas-cientificas-dibujadas-mano-pizarra_23-2148496321.jpg?w=996&t=st=1716828366~exp=1716828966~hmac=98c685f8d890ad4419d879cf915381da704cdceaf63b447408a50001aef86d1b'); /* URL de tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#result {
+    white-space: pre-wrap; /* Preserve whitespace for better formatting */
+}
